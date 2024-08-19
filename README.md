@@ -7,9 +7,12 @@ git clone https://github.com/Dreuzz/audioSwitch
 After downloading run this command:
 
 ```
-cd ~/audioSwitch/ && chmod +x speakers.sh headphones.sh && bash switchAudio.sh
+bash audioSwitch/switchAudio.sh
 ```
----
+
+___
+
+## Good to know
 
 > [!NOTE]
-> Currently I dought that this works with other setups, make an issue if it doesnt!
+> May not work with your setup (im still a noob at this) :(
