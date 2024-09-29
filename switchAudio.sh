@@ -1,6 +1,7 @@
 #!/bin/bash
 
-current_dir=${PWD}/assets/gear.svg
+script_dir="$(dirname "$(realpath "$0")")"
+current_dir=${script_dir}/assets/gear.svg
 
 # Get the current default sink
 current_sink=$(pactl get-default-sink)
